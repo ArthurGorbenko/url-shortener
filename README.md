@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a simple url shortener developed using Golang, aiming to provide a hands-on experience with the language and its ecosystem. The API interacts with a PostgreSQL database, and the application is containerized using Docker for deployment on Fly.io.
+Url to play around https://cold-night-186.fly.dev
 
 ## Prerequisites
 
