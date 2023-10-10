@@ -17,8 +17,8 @@ Url to play around https://cold-night-186.fly.dev
 ### 1. Clone the Repository
 
 ```sh
-git clone [your-repository-url]
-cd [your-repository-directory]
+git clone git@github.com:ArthurGorbenko/url-shortener.git
+cd url-shortener
 ```
 
 ### 2. Setup PostgreSQL
