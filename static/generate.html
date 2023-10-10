@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Link Shortener</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			{{if .Err}}
+			<h2 class="error-heading">Sorry, error occured.</h2>
+			<p class="error-message">{{.Err}}</p>
+			{{else}}
+			<h2 class="success-heading">Success!</h2>
+			<a href="{{.Protocol}}://{{.Host}}/api/{{.Result}}" class="success-link">
+				{{.Protocol}}://{{.Host}}/api/{{.Result}}
+			</a>
+			{{end}}
+		</div>
+	</body>
+</html>
